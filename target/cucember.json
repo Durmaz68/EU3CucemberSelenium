@@ -3,11 +3,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-11-07T18:32:46.852Z",
+        "start_timestamp": "2020-11-07T18:53:54.416Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -46,6 +46,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -85,7 +86,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-07T18:32:46.867Z",
+        "start_timestamp": "2020-11-07T18:53:54.439Z",
         "before": [
           {
             "result": {
@@ -165,14 +166,14 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-07T18:32:46.870Z",
+        "start_timestamp": "2020-11-07T18:53:54.450Z",
         "before": [
           {
             "result": {
               "status": "passed"
             },
             "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+              "location": "com.vytrack.step_definitions.Hooks.setUpdb()"
             }
           },
           {
@@ -180,7 +181,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUpdb()"
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
             }
           }
         ],
@@ -194,7 +195,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.vytrack.step_definitions.Hooks.closedb()"
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
             }
           },
           {
@@ -202,7 +203,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+              "location": "com.vytrack.step_definitions.Hooks.closedb()"
             }
           }
         ],
