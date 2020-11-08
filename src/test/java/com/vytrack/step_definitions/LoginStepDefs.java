@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 public class LoginStepDefs {
 
     @Given("The user in on the login page")
-    public void the_user_in_on_the_login_pge() {
+    public void the_user_in_on_the_login_page() {
         System.out.println("I open browser and navigate to vytrack login page");
     }
 

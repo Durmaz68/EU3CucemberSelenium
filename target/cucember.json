@@ -1,13 +1,13 @@
 [
   {
-    "line": 3,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-07T18:53:54.416Z",
+        "start_timestamp": "2020-11-08T01:42:26.749Z",
         "before": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -15,10 +15,10 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Navigation Fleet -- vehicles",
+        "line": 3,
+        "name": "Login as a driver",
         "description": "",
-        "id": "navigation-menu;navigation-fleet----vehicles",
+        "id": "user-should-be-able-to-login;login-as-a-driver",
         "after": [
           {
             "result": {
@@ -37,91 +37,10 @@
               "duration": 1000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 4,
             "name": "The user in on the login page",
             "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_in_on_the_login_pge()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The user enter the sales manager information",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enter_the_sales_manager_information()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the user navigate to Fleet, Vehicles",
-            "match": {
-              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigate_to_Fleet_Vehicles()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "hte title should be Vehicles",
-            "match": {
-              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.hte_title_should_be_Vehicles()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Navigate"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-07T18:53:54.439Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Navigating Marketing Campaings",
-        "description": "",
-        "id": "navigation-menu;navigating-marketing-campaings",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "The user in on the login page",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_in_on_the_login_pge()"
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_in_on_the_login_page()"
             },
             "keyword": "Given "
           },
@@ -129,21 +48,10 @@
             "result": {
               "status": "passed"
             },
-            "line": 17,
-            "name": "The user enter the sales manager information",
+            "line": 5,
+            "name": "The user enter  the driver information",
             "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enter_the_sales_manager_information()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the user nagivate to Marketing, Campaigns",
-            "match": {
-              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_nagivate_to_Marketing_Campaigns()"
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enter_the_driver_information()"
             },
             "keyword": "When "
           },
@@ -151,134 +59,35 @@
             "result": {
               "status": "passed"
             },
-            "line": 19,
-            "name": "title should be Campaigns",
+            "line": 6,
+            "name": "The should be be able to login",
             "match": {
-              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.title_should_be_Campaigns()"
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_should_be_be_able_to_login()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Navigate"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-07T18:53:54.450Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUpdb()"
-            }
+            "name": "@Driver"
           },
           {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "Navigating Activities -- Calendar Events",
-        "description": "",
-        "id": "navigation-menu;navigating-activities----calendar-events",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
-            }
+            "name": "@login"
           },
           {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.closedb()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "The user in on the login page",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_in_on_the_login_pge()"
-            },
-            "keyword": "Given "
+            "name": "@VYT-123"
           },
           {
-            "result": {
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "The user enter the sales manager information",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enter_the_sales_manager_information()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "the user navigates to Activities,Calendar Events",
-            "match": {
-              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to_Activities_Calendar_Events()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "title should be Calendars",
-            "match": {
-              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.title_should_be_Calendars()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Navigate"
-          },
-          {
-            "name": "@db"
+            "name": "@Mali"
           }
         ]
       }
     ],
-    "name": "Navigation menu",
+    "name": "User should be able to login",
     "description": "",
-    "id": "navigation-menu",
+    "id": "user-should-be-able-to-login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/NavigationMenu.feature",
-    "tags": [
-      {
-        "name": "@Navigate",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
   }
 ]
