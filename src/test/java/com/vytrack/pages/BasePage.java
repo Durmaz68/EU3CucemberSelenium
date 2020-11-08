@@ -92,6 +92,7 @@ public abstract class  BasePage {
      *
      * @param tab
      * @param module
+     *
      */
     public void navigateToModule(String tab, String module) {
         String tabLocator = "//span[normalize-space()='" + tab + "' and contains(@class, 'title title-level-1')]";
