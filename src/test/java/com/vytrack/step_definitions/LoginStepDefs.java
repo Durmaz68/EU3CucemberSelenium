@@ -1,34 +1,53 @@
 package com.vytrack.step_definitions;
 
+import com.vytrack.pages.LoginPage;
+import com.vytrack.utilities.BrowserUtils;
+import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
 
 public class LoginStepDefs {
 
     @Given("The user in on the login page")
     public void the_user_in_on_the_login_page() {
-        System.out.println("I open browser and navigate to vytrack login page");
+        String url = ConfigurationReader.get("url");
+        //WebDriver driver = Driver.get(); we dont need any more in cucumber
+        Driver.get().get(url);
     }
 
     @When("The user enter  the driver information")
     public void the_user_enter_the_driver_information() {
-        System.out.println("I put user name and UserUser123 password and click login button");
+      String username =ConfigurationReader.get("driver_username");
+      String password = ConfigurationReader.get("driver_password");
+        LoginPage loginPage = new LoginPage();
+        loginPage.login(username,password);
     }
 
     @Then("The should be be able to login")
     public void the_should_be_be_able_to_login() {
-        System.out.println("I verify title changed to Dasboard");
+        BrowserUtils.waitFor(3);
+       String actualTitle = Driver.get().getTitle();
+        Assert.assertEquals("Dashboard",actualTitle);
     }
 
     // we add only this Scenario for login as a sales manager others same stesps
     @When("The user enter the sales manager information")
     public void the_user_enter_the_sales_manager_information() {
-        System.out.println("I Enter sales manager username and password");
+        String username =ConfigurationReader.get("sales_manager_username");
+        String password = ConfigurationReader.get("sales_manager_password");
+        LoginPage loginPage = new LoginPage();
+        loginPage.login(username,password);
     }
 
     @When("The user enter  the store information")
     public void the_user_enter_the_store_information() {
-        System.out.println("I login an store manager");
+        String username =ConfigurationReader.get("store_manager_username");
+        String password = ConfigurationReader.get("store_manager_password");
+        LoginPage loginPage = new LoginPage();
+        loginPage.login(username,password);
     }
 }
