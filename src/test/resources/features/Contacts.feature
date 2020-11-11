@@ -15,7 +15,7 @@ Feature:Contact page
     When the user navigate to "Activities" "Calendar Events"
     Then the title contains "Calendar"
 
-  @wip
+
   Scenario: Menu Options
     Given the user logged as "driver"
     Then the user should see following options
@@ -36,3 +36,12 @@ Feature:Contact page
       | Reports & Segments |
       | System             |
 
+  @wip
+  Scenario: login as a given user
+    Given The user in on the login page
+    When The user logs in using following credentials
+      | username  | user10      |
+      | password  | UserUser123 |
+      | firstname | Brenden     |
+      | lastname  | Schneider   |
+    Then The user in on the login page

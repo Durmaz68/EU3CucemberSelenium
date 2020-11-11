@@ -10,7 +10,7 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "Menu Options",
+  "name": "login as a given user",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -26,27 +26,37 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user logged as \"driver\"",
+  "name": "The user in on the login page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_as(java.lang.String)"
+  "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_in_on_the_login_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should see following options",
+  "name": "The user logs in using following credentials",
   "rows": [
     {},
     {},
     {},
     {}
   ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logs_in_using_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The user in on the login page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+  "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_in_on_the_login_page()"
 });
 formatter.result({
   "status": "passed"

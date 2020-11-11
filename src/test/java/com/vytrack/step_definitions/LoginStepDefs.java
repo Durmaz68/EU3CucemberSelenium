@@ -27,8 +27,8 @@ public class LoginStepDefs {
         loginPage.login(username,password);
     }
 
-    @Then("The should be be able to login")
-    public void the_should_be_be_able_to_login() {
+    @Then("The should be able to login")
+    public void the_should_be_able_to_login() {
         BrowserUtils.waitFor(3);
        String actualTitle = Driver.get().getTitle();
         Assert.assertEquals("Dashboard",actualTitle);
