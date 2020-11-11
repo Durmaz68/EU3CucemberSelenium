@@ -26,11 +26,11 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user logges as \"driver\"",
+  "name": "the user logged as \"driver\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logges_as(java.lang.String)"
+  "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_as(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
