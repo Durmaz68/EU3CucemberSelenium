@@ -8,12 +8,12 @@ Feature:Contact page
     When the user navigate to "Customers" "Contacts"
     Then default page number should be 1
 
-
+  @wip
   Scenario: verify Create Calender Event
     Given The user in on the login page
     And The user enter the sales manager information
     When the user navigate to "Activities" "Calendar Events"
-    Then the title contains "Calendar"
+    Then the title contains "Calendars"
 
 
   Scenario: Menu Options
@@ -36,7 +36,7 @@ Feature:Contact page
       | Reports & Segments |
       | System             |
 
-  @wip
+
   Scenario: login as a given user
     Given The user in on the login page
     When The user logs in using following credentials
