@@ -13,19 +13,19 @@ Feature:Contact page
     Given The user in on the login page
     And The user enter the sales manager information
     When the user navigate to "Activities" "Calendar Events"
-    Then the title contains "Calendars"
-
+    Then the title contains "Calendar"
+      #add "s" at the and of the calender to fail
 
   Scenario: Menu Options
     Given the user logged as "driver"
     Then the user should see following options
-      | Fleet      |
+      | Fleet     |
       | Customers  |
       | Activities |
       | System     |
 
   Scenario: Menu Options Sales Manager
-    Given the user logged as "sales maneger"
+    Given the user logged as "sales manager"
     Then the user should see following options
       | Dashboard          |
       | Fleet              |

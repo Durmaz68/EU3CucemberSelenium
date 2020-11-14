@@ -1,4 +1,15 @@
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/BasePage.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/utilities/Driver.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/DashboardPage.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/ContactInfoPage.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/utilities/ConfigurationReader.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/utilities/BrowserUtils.java
 /Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/runners/CukesRunner.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/ContactsPage.java
 /Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/step_definitions/Hooks.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/CalendarEventsPage.java
+/Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/pages/LoginPage.java
 /Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java
 /Users/durmaz/IdeaProjects/EU3CucemberSelenium/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java
