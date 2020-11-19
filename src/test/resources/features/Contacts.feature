@@ -8,7 +8,7 @@ Feature:Contact page
     When the user navigate to "Customers" "Contacts"
     Then default page number should be 1
 
-  @wip
+
   Scenario: verify Create Calender Event
     Given The user in on the login page
     And The user enter the sales manager information
