@@ -25,7 +25,7 @@ Feature: Account Types
   #  Given the user logged as "store maneger"
 
   @wip
-  Scenario Outline: Login with diffirent accounts
+  Scenario Outline: Login with diffirent accounts<usertype>
     Given the user logged as "<userType>"
     When the user navigate to "<tab>" "<module>"
     Then the title contains "<title>"
