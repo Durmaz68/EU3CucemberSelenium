@@ -2,3 +2,4 @@ com/vytrack/runners/CukesRunner.class
 com/vytrack/step_definitions/Hooks.class
 com/vytrack/step_definitions/LoginStepDefs.class
 com/vytrack/step_definitions/NavigationMenuStepDefs.class
+com/vytrack/runners/FailedTestRunner.class
