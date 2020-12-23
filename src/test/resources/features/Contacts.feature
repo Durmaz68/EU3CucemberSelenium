@@ -15,7 +15,7 @@ Feature:Contact page
     When the user navigate to "Activities" "Calendar Events"
     Then the title contains "Calendar"
       #add "s" at the and of the calender to fail
-
+  @smoke
   Scenario: Menu Options
     Given the user logged as "driver"
     Then the user should see following options
@@ -23,11 +23,11 @@ Feature:Contact page
       | Customers  |
       | Activities |
       | System     |
-
+  @smoke
   Scenario: Menu Options Sales Manager
     Given the user logged as "sales manager"
     Then the user should see following options
-      | Dashboard          |
+      | Dashboards         |
       | Fleet              |
       | Customers          |
       | Sales              |

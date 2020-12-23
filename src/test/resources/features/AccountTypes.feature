@@ -1,15 +1,15 @@
+@wip
 Feature: Account Types
-  @wip
   Scenario:  Driver user
     Given the user logged as "driver"
     When the user navigate to "Activities" "Calendar Events"
     Then the title contains "Calendar Events - Activities"
-  @wip
+
   Scenario: Sales Manager user
     Given the user logged as "sales manager"
     When  the user navigate to "Customers" "Accounts"
     Then the title contains "Accounts - Customers"
-  @wip
+
   Scenario: Store Manager user
     Given the user logged as "store manager"
     When the user navigate to "Customers" "Contacts"

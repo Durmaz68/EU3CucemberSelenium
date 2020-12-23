@@ -1,4 +1,4 @@
-  @login
+
 Feature: User should be able to login
 
     Background:
@@ -7,13 +7,13 @@ Feature: User should be able to login
   Scenario: Login as a driver
     When The user enter  the driver information
     Then The should be able to login
-
+  @smoke
   @sales_manager @VYT-123
   Scenario:  Login as a sales manager
     When The user enter the sales manager information
     Then The should be able to login
 
-  @Store_manager @smoke
+  @Store_manager @smoke @wip
   Scenario:  Login as a store manager
     When The user enter  the store information
     Then The should be able to login
